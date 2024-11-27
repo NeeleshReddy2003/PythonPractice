@@ -1,13 +1,12 @@
-n=int(input())
-l=len(str(n))
-temp=n
-sum=0
-#print(l)
+n = int(input())
+z = len(str(n))
+temp = n
+summ = 0
 while temp > 0:
-    ele=temp%10
-    sum=(ele**l)+sum
-    temp=temp//10
-if(n==sum):
+    ele = temp % 10
+    summ = (ele ** z) + summ
+    temp = temp // 10
+if n == summ:
     print("Armstrong Number")
 else:
     print("Not an Armstrong Number")
